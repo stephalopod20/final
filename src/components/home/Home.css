@@ -1,0 +1,46 @@
+.home {
+    width: 100%;
+    height: calc(100vh - 11vh);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('/public/image.png');
+    background-position: center;
+}
+ 
+.home h1 {
+    font-weight: 500;
+    font-style: italic;
+    color: white; 
+    text-shadow: 1px 1px 2px black;
+}
+
+.home h2 {
+    font-style: italic;
+    color: white; 
+    text-shadow: 1px 1px 2px black;
+}
+ 
+.home button { 
+    height: 60px;
+    width: 200px;
+    border-radius: 18px;
+    border: none;
+    background: lightyellow;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.15s ease-in-out;
+    font-size: 1.2rem;
+    color: lightcoral;
+}
+ 
+.home button:hover {
+    background: yellow; 
+    color: red;
+}
+ 
+@media (max-width: 768px) {
+    .home {
+       background-size: 150% 100%;
+    };
+}

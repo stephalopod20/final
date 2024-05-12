@@ -1,0 +1,14 @@
+.todos {
+    width: 100%;
+    height: calc(100vh - 11vh);
+    background-image: url('/public/image.png');
+    background-position: center;
+    font-size: large;
+    color: white;
+};
+
+@media (max-width: 768px) {
+    .todos {
+        background-size: 150% 100%;
+    }
+}

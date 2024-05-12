@@ -1,0 +1,9 @@
+.about {
+    background-color: palegoldenrod;
+    justify-content: center;
+    position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
